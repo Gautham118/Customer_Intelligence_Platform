@@ -1,0 +1,21 @@
+name: ml_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - xgboost
+  - shap
+  - streamlit
+  - plotly
+  - matplotlib
+  - seaborn
+  - pytest
+  - black
+  - ruff
+  - pip
+  - pip:
+      - -e .
